@@ -1,0 +1,27 @@
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color:rgb(32, 28, 28);
+  
+    
+   
+}
+
+
+.country{
+ 
+    height:350px;
+    width:250px;
+     border:2px solid green;
+     margin:15px;
+     padding:15px;
+ }
+.country-visited{
+    background-color:gray ;
+    color:white;
+    height:350px;
+    width:250px;
+     border:2px solid green;
+     margin:15px;
+     padding:15px;
+ }
